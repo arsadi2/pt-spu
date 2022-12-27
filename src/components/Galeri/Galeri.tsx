@@ -8,7 +8,7 @@ const Galeri: React.FC = () => {
   const images = [ImgBotol, ImgDepan, ImgParkiran, ImgTank];
 
   return (
-    <div data-aos="fade-left" className="w-full grid grid-cols-2 aspect-square">
+    <div data-aos="fade-up" className="w-full grid grid-cols-2 aspect-square">
       {images.map((img, key) => {
         return (
           <div key={key} className="w-full group aspect-square overflow-hidden">
