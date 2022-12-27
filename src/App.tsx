@@ -15,14 +15,14 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen hidden w-full bg-my-black text-white relative">
-      <Navbar />
+    <div className="min-h-screen w-full bg-my-black text-white relative">
+      {/* <Navbar />
       <Hero />
       <Keunggulan />
       <Produk />
       <VisiMisi />
       <Tentang />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
