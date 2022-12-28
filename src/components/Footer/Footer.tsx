@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <div className="px-16">
       <Spacer />
-      <div className="grid grid-cols-2 gap-16 border-t border-my-yellow pt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 border-t border-my-yellow pt-16">
         <div className="">
           <img src={ImgLogo} alt="logo-spu" />
           <p className="p-4 text-thin">
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             61256
           </p>
         </div>
-        <div className="space-y-3 px-48">
+        <div className="space-y-3 px-4 sm:px-48">
           <div className="">
             <p className="text-sm">Telepon :</p>
             <p className="text-lg font-semibold text-my-yellow">031-8681348</p>

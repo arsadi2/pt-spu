@@ -4,11 +4,14 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <section className="h-[500px] bg-gray-500 bg-hero bg-center bg-no-repeat bg-cover relative w-full">
-      <div className="absolute z-10 w-full h-full flex flex-col gap-5 items-center justify-center">
-        <h1 data-aos="fade-up" className="uppercase text-6xl font-bold">
+      <div className="absolute z-10 w-full h-full flex flex-col gap-2 sm:gap-5 items-center justify-center p-2">
+        <h1
+          data-aos="fade-up"
+          className="uppercase text-4xl sm:text-6xl font-bold text-center"
+        >
           PT. Sentana Prima Unggul
         </h1>
-        <p data-aos="fade-up" className="text-my-yellow text-lg">
+        <p data-aos="fade-up" className="text-my-yellow text-lg text-center">
           Produsen minyak goreng berkualitas dan mutu terjamin.
         </p>
       </div>

@@ -39,10 +39,10 @@ const Produk: React.FC = () => {
   ];
 
   return (
-    <div className="px-32">
+    <div className=" px-16  lg:px-32">
       <Spacer />
       <Heading text="Produk Kami" />
-      <div className=" grid grid-cols-3 gap-8">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {produk.map((item, key) => {
           return <ProdukItem item={item} key={key} />;
         })}

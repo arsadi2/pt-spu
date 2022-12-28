@@ -23,7 +23,7 @@ const Keunggulan: React.FC = () => {
   ];
 
   return (
-    <section className="w-full px-20 py-20 grid grid-cols-3 gap-8 ">
+    <section className="w-full px-20 py-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
       {keunggulans.map((unggul, key) => {
         return <KeunggulanItem keunggulan={unggul} key={key} />;
       })}

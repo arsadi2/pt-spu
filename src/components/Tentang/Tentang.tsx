@@ -9,7 +9,7 @@ const Tentang: React.FC = () => {
       <Spacer />
       <Spacer />
 
-      <div className="grid grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
         <div className="">
           <Heading text="Tentang Kami" align="left" />
           <p
