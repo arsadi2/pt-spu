@@ -5,17 +5,14 @@ import Spacer from "../Spacer";
 
 const Tentang: React.FC = () => {
   return (
-    <div className="px-24">
+    <div className="px-16 sm:px-24">
       <Spacer />
       <Spacer />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
         <div className="">
           <Heading text="Tentang Kami" align="left" />
-          <p
-            data-aos="fade-right"
-            className="font-thin  leading-9 text-justify"
-          >
+          <p data-aos="fade-right" className="font-thin  eading-9 text-justify">
             PT. Sentana Prima Unggul mulai beraktifitas sejak tahun 2006 dengan
             bentuk perusahaan awal sebagai Usaha Dagang (UD). Sesuai dengan
             perkembangan dan regulasi pmerintahan yang berlaku, maka pada
