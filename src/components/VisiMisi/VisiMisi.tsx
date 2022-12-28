@@ -5,7 +5,7 @@ import { Heartbeat, Star, Archive } from "phosphor-react";
 
 const VisiMisi: React.FC = () => {
   return (
-    <div className=" w-full relative">
+    <div className=" w-full relative overflow-hidden">
       <div className="absolute w-[200px] h-[300px] bg-tertiary skew-y-12 -translate-x-44 top-64 -rotate-12"></div>
       <div className="absolute w-[200px] h-[300px] bg-tertiary -skew-y-12 -translate-x-44 top-[548px] rotate-12"></div>
       <div className="absolute w-[200px] h-[300px] bg-tertiary -skew-y-12 translate-x-44 top-64 right-0 rotate-12"></div>
