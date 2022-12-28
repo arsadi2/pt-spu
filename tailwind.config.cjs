@@ -7,8 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-black' : '#060805',
-        'my-yellow' : '#D2A810'
+        'my-black' : '#FFFFFFAD',
+        'my-yellow' : '#ffa500',
+        'tertiary' : "#e66e00",
+        'quartiary' : "#060805"
       }
     },
   },

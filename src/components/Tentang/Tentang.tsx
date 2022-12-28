@@ -14,7 +14,7 @@ const Tentang: React.FC = () => {
           <Heading text="Tentang Kami" align="left" />
           <p
             data-aos="fade-right"
-            className="font-thin text-gray-200 leading-9 text-justify"
+            className="font-thin  leading-9 text-justify"
           >
             PT. Sentana Prima Unggul mulai beraktifitas sejak tahun 2006 dengan
             bentuk perusahaan awal sebagai Usaha Dagang (UD). Sesuai dengan
