@@ -4,9 +4,9 @@ import ImgLogo from "src/assets/img/logo-spu.png";
 
 const Footer: React.FC = () => {
   return (
-    <div className="px-16 relative h-[450px] overflow-hidden">
-      <div className="absolute w-[200px] h-[300px] bg-tertiary skew-y-12 -translate-x-32 top-[300px] -rotate-[67deg] opacity-50"></div>
-      <div className="absolute w-[200px] h-[300px] bg-my-yellow skew-y-12 -translate-x-48 top-[240px] -rotate-[67deg] opacity-50"></div>
+    <div className="px-16 relative overflow-hidden">
+      <div className="absolute w-[200px] h-[300px] bg-tertiary skew-y-12 -translate-x-32 -bottom-28 -rotate-[67deg] opacity-50"></div>
+      <div className="absolute w-[200px] h-[300px] bg-my-yellow skew-y-12 -translate-x-48 -bottom-32  -rotate-[67deg] opacity-50"></div>
       <Spacer />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 border-t border-my-yellow pt-16">
         <div className="">
