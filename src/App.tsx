@@ -15,8 +15,8 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen w-full bg-my-black text-white relative">
-      <div className="w-full h-full absolute bg-body ">asd</div>
+    <div className="min-h-screen w-full bg-my-black text-zinc-900 relative">
+      <div className="w-full h-full absolute bg-body "></div>
       <Navbar />
       <Hero />
       <Keunggulan />
