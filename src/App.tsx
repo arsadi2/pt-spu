@@ -16,13 +16,14 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen w-full bg-my-black text-white relative">
-      {/* <Navbar />
+      <div className="w-full h-full absolute bg-body ">asd</div>
+      <Navbar />
       <Hero />
       <Keunggulan />
       <Produk />
       <VisiMisi />
       <Tentang />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

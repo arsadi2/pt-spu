@@ -1,10 +1,25 @@
 import React from "react";
 import Heading from "../Heading";
 import Spacer from "../Spacer";
+import { Heartbeat, Star, Archive } from "phosphor-react";
 
 const VisiMisi: React.FC = () => {
   return (
     <div className="px-4 sm:px-16 w-full relative">
+      <div
+        data-aos="flip-left"
+        className="absolute top-72 flex flex-col items-center justify-center w-[1200px] overflow-hidden  "
+      >
+        <Star size={128} className="text-my-yellow blur-sm opacity-10" />
+        <Heartbeat
+          size={96}
+          className="text-my-yellow blur-sm -translate-x-56 mt-48 rotate-45 opacity-5"
+        />
+        <Archive
+          size={256}
+          className="text-my-yellow blur-sm translate-x-56 mt-48 -rotate-12 opacity-5"
+        />
+      </div>
       <Spacer />
       <Spacer />
       <div className="w-full flex flex-col items-center">
