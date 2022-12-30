@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           Produsen minyak goreng berkualitas dan mutu terjamin.
         </p>
       </div>
-      <span className="w-full h-full absolute bg-gradient-to-t from-my-yellow to-my-black/40 "></span>
+      <span className="w-full h-full absolute bg-gradient-to-t from-tertiary to-my-yellow/40 "></span>
       <div className="absolute bottom-0 flex justify-center items-center  w-full">
         <CaretDoubleDown
           size={32}
