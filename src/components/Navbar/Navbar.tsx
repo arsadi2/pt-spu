@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="bg-tertiary/50 absolute z-50 top-0 w-full backdrop-filter backdrop-blur-sm h-16 flex justify-between items-center px-4 sm:px-16 ">
+    <header className=" bg-gradient-to-r from from-quinary/50 to-tertiary/50 absolute z-50 top-0 w-full backdrop-filter backdrop-blur-sm h-16 flex justify-between items-center px-4 sm:px-16 ">
       <div className="text-white">PT. Sentana Prima Unggul</div>
       <div className="">
         <a

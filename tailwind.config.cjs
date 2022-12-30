@@ -10,7 +10,8 @@ module.exports = {
         'my-black' : '#FFFFFFAD',
         'my-yellow' : '#ffa500',
         'tertiary' : "#e66e00",
-        'quartiary' : "#060805"
+        'quartiary' : "#060805",
+        'quinary' : "#E60000"
       }
     },
   },

@@ -22,7 +22,7 @@ const ProdukItem: React.FC<ProdukItemProps> = ({ item }) => {
           alt=""
         />
       </div>
-      <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-500 bottom-0 w-full bg-gradient-to-t from-my-yellow to-tertifrom-my-yellow/10 h-32 flex justify-center items-center">
+      <div className="absolute opacity-0 left-0 group-hover:opacity-100 transition-all duration-500 bottom-0 w-full bg-gradient-to-t from-tertiary to-tertifrom-my-yellow/10 h-32 flex justify-center items-center">
         <p className="font-semibold text-2xl text-white">{item.name}</p>
       </div>
     </div>

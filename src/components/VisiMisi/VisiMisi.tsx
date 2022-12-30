@@ -6,10 +6,10 @@ import { Heartbeat, Star, Archive } from "phosphor-react";
 const VisiMisi: React.FC = () => {
   return (
     <div className=" w-full relative overflow-hidden">
-      <div className="absolute w-[200px] h-[300px] bg-tertiary skew-y-12 -translate-x-44 top-64 -rotate-12"></div>
-      <div className="absolute w-[200px] h-[300px] bg-tertiary -skew-y-12 -translate-x-44 top-[548px] rotate-12"></div>
-      <div className="absolute w-[200px] h-[300px] bg-tertiary -skew-y-12 translate-x-44 top-64 right-0 rotate-12"></div>
-      <div className="absolute w-[200px] h-[300px] bg-tertiary skew-y-12 translate-x-44 top-[548px] right-0 -rotate-12"></div>
+      <div className="absolute w-[200px] h-[300px] bg-gradient-to-tr from-quinary to-my-yellow skew-y-12 -translate-x-44 top-64 -rotate-12"></div>
+      <div className="absolute w-[200px] h-[300px]  bg-gradient-to-br from-quinary to-my-yellow -skew-y-12 -translate-x-44 top-[548px] rotate-12"></div>
+      <div className="absolute w-[200px] h-[300px]  bg-gradient-to-tl from-quinary to-my-yellow -skew-y-12 translate-x-44 top-64 right-0 rotate-12"></div>
+      <div className="absolute w-[200px] h-[300px] bg-gradient-to-bl from-quinary to-my-yellow skew-y-12 translate-x-44 top-[548px] right-0 -rotate-12"></div>
       <div
         data-aos="flip-left"
         className="absolute top-72 flex flex-col items-center justify-center w-[1200px] overflow-hidden  "
